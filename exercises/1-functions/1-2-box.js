@@ -24,4 +24,5 @@ function drawBox() {
     context.moveTo(200, 50);
     context.lineTo(50, 200);
     context.stroke();
+    
 } 

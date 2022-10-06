@@ -95,6 +95,3 @@ function drawName() {
     context.lineTo(685, 265);
     context.stroke();
 }
-
-
-
