@@ -9,6 +9,7 @@ drawBox();
 
 function drawBox() {
 
+    //Box outline
     context.beginPath();
     context.moveTo(50, 50);
     context.lineTo(200, 50);
@@ -17,6 +18,7 @@ function drawBox() {
     context.lineTo(50, 50);
     context.stroke();
 
+    //Cross
     context.beginPath();
     context.strokeStyle = "red";
     context.moveTo(50, 50);
@@ -24,5 +26,4 @@ function drawBox() {
     context.moveTo(200, 50);
     context.lineTo(50, 200);
     context.stroke();
-    
 } 
