@@ -21,6 +21,6 @@ function drawLines() {
     context.lineTo(width-margin,400);
     context.lineTo(margin,500);
     context.lineTo(width-margin,500);
-    context.lineTo(margin, 100);
+    context.closePath();
     context.stroke();
 }
