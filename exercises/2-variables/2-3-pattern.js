@@ -8,9 +8,9 @@ let canvas = document.querySelector("canvas");
     let width = context.canvas.width;
     let height = context.canvas.height;
 
-    Pattern();
+    Patterns();
     
-    function Pattern (){
+    function Patterns (){
 
         context.beginPath();
         context.fillStyle = "#303d4e";
