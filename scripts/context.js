@@ -1,9 +1,8 @@
 "use strict";
 
 /** 
- * @type {CanvasRenderingContext2D}  
- */
-
+ * @type {CanvasRenderingContext2D} 
+ * */
 let context;
 
 setupCanvasContext();
